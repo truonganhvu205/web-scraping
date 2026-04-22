@@ -30,7 +30,7 @@ def get_gold_prices(target_date):
     except Exception as e:
         return None
 
-start_date = date(2025, 1, 1)
+start_date = date(2020, 1, 1)
 end_date = date(2026, 4, 21)
 
 all_data = []
