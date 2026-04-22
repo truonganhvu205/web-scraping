@@ -44,5 +44,5 @@ while current <= end_date:
 
 with open('sjc_vn.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f)
-    csv_writer.writerow(['No', 'Date', 'Buy Price', 'Sell Price'])
+    csv_writer.writerow(['Date', 'Buy Price', 'Sell Price'])
     csv_writer.writerows(all_data)
