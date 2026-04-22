@@ -31,7 +31,7 @@ def get_gold_prices(target_date):
         return None
 
 start_date = date(2025, 1, 1)
-end_date = date(2025, 1, 31)
+end_date = date(2026, 4, 21)
 
 all_data = []
 current = start_date
