@@ -1,8 +1,12 @@
-### Libraries
+## Requirements
 
-```
-pip3 install beautifulsoup4
-pip3 install lxml
-pip3 install html5lib
-pip3 install requests
+- **beautifulsoup4** – scraping và parse HTML/XML
+- **lxml** – parser nhanh cho BeautifulSoup
+- **html5lib** – parser HTML5 chuẩn xác
+- **requests** – gọi HTTP API / tải trang web
+
+### Install
+
+```bash
+pip3 install beautifulsoup4 lxml html5lib requests
 ```
